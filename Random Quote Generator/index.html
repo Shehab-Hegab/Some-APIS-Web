@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Random Quote Generator</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="container">
+      <div class="button-container">
+        <button id="favourite"><i class="fa-regular fa-heart"></i></button>
+        <button id="show-list">
+          <i class="fa-solid fa-list"></i>
+        </button>
+        <button id="copy"><i class="fa-solid fa-copy"></i></button>
+      </div>
+      <p id="quote">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas,
+        magni.
+      </p>
+      <h3 id="author">Lorem, ipsum.</h3>
+      <button id="btn">Generate</button>
+    </div>
+  </div>
+  <div class="favorite-container">
+    <h3>Favorite Quotes</h3>
+    <ul id="list-of-favourite-quotes"></ul>
+    <button id="clear-button">Clear</button>
+    <button id="close-favorite">Close</button>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
